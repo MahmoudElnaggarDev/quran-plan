@@ -21,7 +21,7 @@ export default function App() {
 
   const [selectedKeys, setSelectedKeys] = useState(getInitialSelectedKeys);
   const [page, setPage] = useState(1);
-  const rowsPerPage = 7;
+  const rowsPerPage = 14;
   const pages = Math.ceil(rows.length / rowsPerPage);
 
   const items = useMemo(() => {
